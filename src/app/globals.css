@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@variant dark (&:is(.dark, .dark *));
+
+@theme {
+  --color-gray-950: #0a0a0a;
+}
+
+body {
+  font-family: var(--font-geist-sans);
+}
+
+code {
+  font-family: var(--font-geist-mono);
+}
